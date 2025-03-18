@@ -55,7 +55,7 @@ header{
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%);
+    background: linear-gradient(245.59deg, #1a152a 0%, #1b0625 28.53%, #133917 75.52%);
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -63,7 +63,39 @@ header{
     gap: 2rem;
 }
 
-.hero-img{
-    height: 100px;
-    width: 100px;
+
+.img-1{
+    width: 700px;
+    height: auto;
+}
+
+section{
+    padding: 0 19%;
+}
+
+.hero-text h5{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 40px;
+}
+.hero-text h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90px;
+    line-height: 1;
+    color: white;
+    margin: 0 0 45px;
+}
+
+.hero-text a{
+    display: inline-block;
+    color: white;
+    background: #4d9559;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
 }
